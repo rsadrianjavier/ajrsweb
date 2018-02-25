@@ -1,9 +1,17 @@
-
 <nav>
-	<a [routerLink]="['/home']" [routerLinkActive]="['activado']">Home</a>	
-	<a [routerLink]="['/contact']" [routerLinkActive]="['activado']">Contact</a>
+  <div class="container">
+    <ul>
+      <li><a [routerLink]="['/home']" [routerLinkActive]="['activado']">home</a></li>
+      <li><a [routerLink]="['/about_me']" [routerLinkActive]="['activado']">about me</a></li>
+      <li><a [routerLink]="['/web_development']" [routerLinkActive]="['activado']">web development</a></li>
+      <li><a [routerLink]="['/contact']" [routerLinkActive]="['activado']">contact</a></li>
+    </ul>
+  </div>
 </nav>
 
 <section>
-	<router-outlet></router-outlet>
+  <div class="container">
+  	<h1 class="sectiontitle">Título sección: {{titulo_seccion}}</h1>
+  	<router-outlet></router-outlet>
+  </div>
 </section>

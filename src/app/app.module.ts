@@ -11,13 +11,16 @@ import { FooterComponent } from './footer/footer.component';
 import { NavSectionComponent } from './navsection/navsection.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutMeComponent } from './aboutme/aboutme.component';
+import { WebDevelopmentComponent } from './webdevelopment/webdevelopment.component';
 import { Error404Component } from './error404/error404.component';
 
 
 @NgModule({
   declarations: [
     AppComponent, HeaderComponent, FooterComponent, NavSectionComponent, 
-    HomeComponent, ContactComponent, Error404Component
+    HomeComponent, ContactComponent, Error404Component, AboutMeComponent,
+    WebDevelopmentComponent
   ],
   imports: [
     BrowserModule,

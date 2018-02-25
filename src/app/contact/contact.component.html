@@ -1,2 +1,19 @@
-<h2>{{titulo}}</h2>
-Página de contacto
+<p>Puedes ponerte en contacto conmigo rellenando este formulario o enviandome un email a <a id="mailto" href="mailto:rodriguezsanchezadrianjavier@gmail.com">rodriguezsanchezadrianjavier@gmail.com</a></p>
+
+<form action="formulario.php" method="post">
+	<div id="nombre-email">
+		<input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+		<input type="email" name="email" id="email" placeholder="email" required>
+
+	</div>
+
+	<textarea name="mensaje" id="mensaje" rows="10" placeholder="Mensaje: Aún no esta en funcionamiento, si quieres contactar conmigo, puedes hacerlo a través de mis redes sociales o por email" required=""></textarea>
+	<div id="politica-de-privacidad">
+		<input type="radio" name="privacidad" value="acepto" required>
+		<label>Acepto la política de privacidad</label>
+	</div>
+	<div id="boton-enviar">
+		<button type="submit">ENVIAR</button>
+	</div>	
+</form>

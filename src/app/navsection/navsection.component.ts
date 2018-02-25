@@ -11,8 +11,7 @@ export class NavSectionComponent{
 	public section: Section;
 
 	ngOnInit(){
-		this.section = new Section('seccion 1');
-		console.log(this.section)
+		this.section = new Section('titulo_seccion');
 	}
 
 }

@@ -1,5 +1,5 @@
 export class Section{
 	constructor(
-		public nombre: string,
+		public titulo_seccion: string,
 	){}
 }
